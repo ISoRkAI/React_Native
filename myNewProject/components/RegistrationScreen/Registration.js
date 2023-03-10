@@ -32,7 +32,7 @@ const loadFonts = async () => {
   });
 };
 
-export default App = () => {
+export default Registration = () => {
   const [isShowKeyboard, setIsShowKeyboard] = useState(false);
   const [state, setState] = useState(initialState);
   const [isReady, setIsReady] = useState(false);
